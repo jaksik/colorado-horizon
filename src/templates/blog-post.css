@@ -1,0 +1,96 @@
+h2, h3 {
+    font-family: serif;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+p {
+    font-family: serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.blog-image-container {
+    max-height: 70vh;
+}
+
+.blog-content-container {
+    max-width: 680px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.blog-post-title {
+    padding-top: 40px!important;
+    font-family: serif!important;
+    font-size: 48px;
+}
+
+.blog-post-description {
+    color: rgba(117, 117, 117, 1);
+    font-weight: 300;
+}
+
+.gatsby-resp-image-link {
+    pointer-events: none;
+}
+
+.gatsby-resp-image-wrapper {
+    margin: 15px 0 15px!important;
+}
+
+.post-meta-item {
+    float: left;
+    margin: 0 12px
+}
+
+em {
+    font-size: 15px;
+    color: #546E7A;
+
+}
+
+.border {
+    border-right: 2px solid black;
+    height: 100%;
+}
+
+.side-email-form {
+    background: #3f2314e3;
+    border-radius: 10px;
+    min-height: 300px;
+    margin-top: 60px;
+    color: white
+}
+
+.side-blog-list {
+    border-left: 3px solid lightgray;
+    padding-left: 10px;
+    margin-top: 60px;
+}
+
+.blog-post-title {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 960px) {
+    .blog-post-title {
+        font-size: 48px;
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .blog-post-title {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .blog-post-title {
+        padding-top: 0px!important;
+    }
+}

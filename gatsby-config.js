@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Blog Default Starter`,
+    description: `A simple blog default starter template that's optimized for seo and ready to rank on Google.`,
+    author: `@jaksik`,
+    url: `https://blog-starter-default.web.app`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,12 +14,41 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown`,
+        path: `${__dirname}/src/pages/markdown`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              withWebp: { quality: 60 },
+              // tracedSVG: true,
+              linkImagesToOriginal: false
+            },
+          },
+        ],
+      },
+    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: "UA-136621668-4",
+    //     head: true,
+    //   },
+    // },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `blog-starter-default`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

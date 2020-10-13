@@ -23,6 +23,7 @@ const Header = ({ siteTitle }) => (
             color: `white`,
             textDecoration: `none`,
           }}
+          className="white-text"
         >
           {siteTitle}
         </Link>
