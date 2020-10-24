@@ -1,0 +1,71 @@
+[
+    {
+        "dropdown": "Places",
+        "categories": [
+            {
+                "title":"Mountain Towns",
+                "links":[
+                    {
+                        "place":"Estes Park"
+                    },
+                    {
+                        "place":"Frisco"
+                    },
+                    {
+                        "place":"Breckenridge"
+                    },
+                    {
+                        "place":"Aspen"
+                    },
+                    {
+                        "place":"Silverthorne"
+                    },
+                    {
+                        "place":"Leadville"
+                    },
+                    {
+                        "place":"Buena Vista"
+                    },
+                    {
+                        "place":"Steamboat Springs"
+                    }
+                ]
+            },
+            {
+                "title":"Front Range",
+                "links":[
+                    {
+                        "place":"Denver"
+                    },
+                    {
+                        "place":"Fort Collins"
+                    },
+                    {
+                        "place":"Colorado Springs"
+                    },
+                    {
+                        "place":"Longmont"
+                    },
+                    {
+                        "place":"Pueblo"
+                    },
+                    {
+                        "place":"Boulder"
+                    },
+                    {
+                        "place":"Greeley"
+                    }
+                ]
+            },
+            {
+                "title":"Western Slope",
+                "links":[
+                    {
+                        "place":"Grand Junction"
+                    }
+                ]
+            }
+
+        ]
+    }
+]

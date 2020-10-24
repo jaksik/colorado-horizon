@@ -1,0 +1,25 @@
+footer {
+    background: #002868;
+    width: 100%;
+}
+
+ul {
+    margin-left: 0!important;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-form-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+h4 {
+    color: white!important;
+}

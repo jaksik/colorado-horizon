@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog Default Starter`,
+    title: `Colorado Horizon`,
     description: `A simple blog default starter template that's optimized for seo and ready to rank on Google.`,
     author: `@jaksik`,
-    url: `https://blog-starter-default.web.app`
+    url: `https://blog-starter-default.web.app`,
+    primaryColor: `#dbdbdb`,
+    secondaryColor:``
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -54,7 +56,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/brand/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

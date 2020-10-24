@@ -1,31 +1,47 @@
 import React from "react"
+import Img from 'gatsby-image'
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import InfoLayout from "../components/InfoLayout"
 import SEO from "../components/seo"
-import ShareBar from "../components/ShareBar"
-import "./blog-post.css"
+import HorzShareBar from "../components/Social/HorzShareBar"
+
+import "./blog.css"
 
 export default ({ data }) => {
-  
-  const content = data.markdownRemark
-  const siteMetadata = data.site.siteMetadata
-  const img = siteMetadata.url + content.frontmatter.image.childImageSharp.fluid.src
+  const info = data.markdownRemark
 
   return (
     <Layout>
-      <SEO
-        title={content.frontmatter.title}
-        description={content.frontmatter.description}
-        keywords={content.frontmatter.tags}
-        thumbnail={img}
-        url = {siteMetadata.url}
-      />
+      <SEO title={info.frontmatter.title} keywords={info.frontmatter.tags} />
 
-      <article>
-        <h1>{content.frontmatter.title}</h1>
-        <ShareBar />
-        <div dangerouslySetInnerHTML={{ __html: content.html }} />
-      </article>
+      <InfoLayout>
+     
+
+      <div className="blog-content-container">
+        <h1 className="blog-post-title">{info.frontmatter.title}</h1>
+        <div className="d-flex justify-content-center align-items-center mb-4">
+            <div className="post-meta-item">
+              <em>written By:</em><br />
+              <a href="https://facebook.com/connorjaksik" target="_blank" rel="noopener noreferrer">Connor Jaksik</a>
+            </div>
+            <div className="post-meta-item">
+              <em>published on:</em><br />
+              <b>October 9, 2020</b>
+            </div>
+            <div className="post-meta-item d-none d-md-block">/</div>
+            <div className="post-meta-item d-none d-md-block">
+              <HorzShareBar />
+            </div>
+          </div>
+          <div className="d-md-none mb-4">
+            <HorzShareBar />
+          </div>
+        <Img fluid={info.frontmatter.image.childImageSharp.fluid} />
+        <div dangerouslySetInnerHTML={{ __html: info.html }} />
+      </div>
+      </InfoLayout>
+
 
     </Layout>
   )
@@ -33,11 +49,6 @@ export default ({ data }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    site {
-      siteMetadata {
-        url
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -47,8 +58,8 @@ export const query = graphql`
         date
         image {
           childImageSharp {
-            fluid(quality: 70) {
-              ...GatsbyImageSharpFluid_withWebp
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }

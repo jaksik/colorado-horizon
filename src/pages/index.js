@@ -4,23 +4,22 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import BlogList from "../components/BlogList"
 
 const IndexPage = ({ data }) => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    {data.allMarkdownRemark.edges.map((post, index) => (
-      <>
-      <Link to={post.node.fields.slug} style={{fontSize:`40px`, marginBottom:30}}>{post.node.frontmatter.title}</Link><br/>
-      </>
-    ))}
+ <>
+  {/* <div style={{height:`100vh`, boverflow:`hidden`, position:`absolute`, zIndex:-1}}>
+  </div> */}
+    <Image />
 
+  <Layout>
+    <SEO title="Colorado Horizon" />
+    <div style={{minHeight:`100vh`}} className="d-flex justify-content-center align-items-center">
+      <h1 style={{color:`white`, fontSize:`4rem`, fontWeight:`lighter`, textAlign:`center`}}>Experience Colorado</h1>
+    </div>
+    <BlogList/>
   </Layout>
+ </>
 )
 
 export default IndexPage

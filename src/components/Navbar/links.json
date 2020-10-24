@@ -1,0 +1,59 @@
+[
+    {
+        "dropdown": "THINGS TO DO",
+        "links":[
+            {
+                "title":"Ski"
+            },
+            {
+                "title":"Hike"
+            },
+            {
+                "title":"Ski"
+            },
+            {
+                "title":"Ski"
+            },
+            {
+                "title":"Ski"
+            }
+        ]
+    },
+    {
+        "dropdown": "MOUNTAIN TOWNS",
+        "links":[
+            {
+                "title":"Estes Park"
+            },
+            {
+                "title":"Frisco"
+            },
+            {
+                "title":"Breckenridge"
+            },
+            {
+                "title":"Aspen"
+            },
+            {
+                "title":"Silverthorne"
+            },
+            {
+                "title":"Leadville"
+            },
+            {
+                "title":"Buena Vista"
+            },
+            {
+                "title":"Steamboat Springs"
+            }
+        ]
+    },
+    {
+        "dropdown": "FRONT RANGE",
+        "links":[
+            {
+                "title":"Estes Park"
+            }
+        ]
+    }
+]

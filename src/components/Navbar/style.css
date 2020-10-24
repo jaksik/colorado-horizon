@@ -1,0 +1,54 @@
+
+.background {
+  
+    background: white;
+
+    box-shadow: 0px 6px 2px #0000001f;
+
+}
+
+.nav-brand-image {
+    width: 100%!important;
+    margin-right: 0px;
+}
+
+.nav-brand-text {
+    display: none;
+}
+
+.nav-brand-icon {
+    display: none;
+    margin-bottom: 0;
+}
+
+.dropdown-menu {
+    min-width: 43rem!important
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-brand-banner {
+        display: none;
+    }
+
+    .nav-brand-icon {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .nav-wrapper {
+        box-shadow: 0px 6px 2px #0000001f;
+    }
+
+    .nav-brand-image {
+        width: 80%!important;
+    }
+
+    .nav-brand-text {
+        display: block;
+    }
+
+  }

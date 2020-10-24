@@ -5,3 +5,8 @@ a {
 .white-text {
     color: white!important;
 }
+
+.site-inner {
+    max-width: 1200;
+    margin: 0 auto;
+}
