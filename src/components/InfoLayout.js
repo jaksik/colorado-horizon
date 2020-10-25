@@ -8,6 +8,11 @@ import "./layout.css"
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
     query SiteTitlQuery {
+        site {
+            siteMetadata {
+              title
+            }
+        }
         markdownRemark(frontmatter: {category: {eq: "about"}}) {
             id
             fields {
@@ -39,24 +44,38 @@ const Layout = ({ children }) => {
                 <div style={{ padding: 20 }}>
                     <div style={cardStyle}>
                         <Img fluid={data.markdownRemark.frontmatter.image.childImageSharp.fluid} />
-                        <h3>About Colorado Horizon</h3>
+                        <h3 style={{textAlign:`center`}}>The {data.site.siteMetadata.title} Story</h3>
 
                         <span className="pt-2 pb-2">
                             Pellentesque mi nulla, mollis quis iaculis non, consequat in urna. Mauris ac lacus neque. Ut ultricies blandit egestas. Nullam consectetur enim dolor, sodales posuere neque dictum a.
                     </span><br />
                         <div className="w-100 d-flex justify-content-center mt-4">
-                        <Link to={data.markdownRemark.fields.slug}>
-                            <Button color="success">Learn More</Button>
-                        </Link>
+                            <Link to={data.markdownRemark.fields.slug}>
+                                <Button color="success">Learn More</Button>
+                            </Link>
                         </div>
                     </div>
-                    <div style={cardStyle} className="mt-5">
+                    <div style={cardStyle} className="mt-5 text-center">
                         <h3>Categories</h3>
                         <ul>
-                        {categories.map((category, index) => (
-                            <li>
-                                {category}
-                            </li>
+                            {categories.map((category, index) => (
+                                <li>
+                                    <Link to="/">
+                                    {category}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div style={cardStyle} className="mt-5 text-center">
+                        <h3>Table of Contents</h3>
+                        <ul>
+                            {categories.map((category, index) => (
+                                <li>
+                                    <Link to="/">
+                                    {category}
+                                    </Link>
+                                </li>
                             ))}
                         </ul>
                     </div>

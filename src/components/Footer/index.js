@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { Row, Col } from 'reactstrap'
+import SocialConnect from "../Social/Connect"
+
 import {
   EmailIcon,
   FacebookIcon,
@@ -10,13 +12,13 @@ import {
   PinterestIcon,
   TwitterIcon,
 } from "react-share";
-import banner from "../../images/brand/banner.svg"
+import banner from "../../images/brand/black-banner.svg"
 import './style.css'
 
 const Footer = ({ siteTitle, blogPosts }) => {
   const footerLinks = [
     {
-      title: "About Us",
+      title: "Our Story",
       link: "/about"
     },
     {
@@ -46,7 +48,7 @@ const Footer = ({ siteTitle, blogPosts }) => {
   return (
     <footer>
       <Row className="no-gutters justify-content-center pt-5">
-        <LinkedinIcon size={32} />
+        {/* <LinkedinIcon size={32} />
         <a href="https://www.instagram.com/epicnationalparks/">
           <InstapaperIcon size={32} className="ml-2" />
         </a>
@@ -57,7 +59,8 @@ const Footer = ({ siteTitle, blogPosts }) => {
         <a href="https://id.pinterest.com/epicnationalparks">
           <PinterestIcon size={32} className="ml-2" />
         </a>
-        <TwitterIcon size={32} className="ml-2" />
+        <TwitterIcon size={32} className="ml-2" /> */}
+        <SocialConnect/>
       </Row>
 
       <Row className="no-gutters pt-5">
@@ -69,8 +72,14 @@ const Footer = ({ siteTitle, blogPosts }) => {
         <Col xs={10} sm={5} lg={3} className="offset-1">
           <h4>Latest Blog Posts</h4>
           <ul>
-            {mountainTowns.map((town, index) => (
-              <li style={{color:`white`}}>{town}</li>
+            {blogPosts.map((post, index) => (
+              <li>
+                <Link to={post.node.fields.slug}
+                   style={{color:`black`}}
+                >
+                {post.node.frontmatter.title}
+                </Link>
+              </li>
             ))}
           </ul>
         </Col>
@@ -80,7 +89,9 @@ const Footer = ({ siteTitle, blogPosts }) => {
           <ul>
             {footerLinks.map((link, index) => (
               <li key={index}>
-                <Link to={link.link}  className="footer-link">
+                <Link to={link.link}  className="footer-link"
+             
+                >
                   {link.title}
                 </Link>
               </li>
@@ -89,7 +100,7 @@ const Footer = ({ siteTitle, blogPosts }) => {
         </Col>
 
 
-        <Col xs={12} className="d-flex justify-content-center text-white mt-5 pt-3" style={{ borderTop: `1px solid white` }}>
+        <Col xs={12} className="d-flex justify-content-center footer-link mt-5 pt-3" style={{ borderTop: `1px solid lightgray` }}>
           © {new Date().getFullYear()}, {siteTitle}
         </Col>
 

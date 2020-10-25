@@ -20,8 +20,10 @@ tags:
 
 <blockquote>"I wasn't born here, but I got here as soon as I could"</blockquote>
 
-<b>My name is Connor and this is my blog...</b><br/>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel lacus pellentesque arcu mollis auctor at eu tortor. Vivamus id leo in dolor facilisis aliquam. Nam condimentum porttitor ligula vitae feugiat. Pellentesque mi nulla, mollis quis iaculis non, consequat in urna. Mauris ac lacus neque. Ut ultricies blandit egestas. Nullam consectetur enim dolor, sodales posuere neque dictum a. Donec quam tortor, sagittis et porttitor nec, vulputate eget quam. Morbi mi tortor, elementum et diam consequat, hendrerit vulputate nibh. Nulla nisi metus, egestas in lacus non, lacinia scelerisque orci.
+...is something your bound to hear sooner or later after you've spent some time in Colorado. Sure, it would have been nice to grow up living in the rocky mountains, but I grew up in Houston, Texas and I did move to Colorado as soon as I could.
+
+<b>Moving to Colorado with no money...</b><br/>
+By the time I had graduated highschool, I had already visited Colorado nearly 20 times. I was fortunate that my parents enjoyed traveling and loved Colorado. Winter break ski vacations were an anual tradition and summer vacations were nearly just as frequent. This no doubt effected me as a kid growing up in the suburbs of Houston, knowing theres a much cooler place out there and I wasn't there.
 
 ## What are the best ways to create a blog?
 Duis dignissim eget purus sit amet scelerisque. Vivamus ultricies vel quam sit amet tempus. Nam sit amet nulla libero. Praesent aliquet sagittis eros, non auctor dui blandit vel. Integer faucibus, nunc nec luctus rhoncus, sapien lectus tincidunt purus, tincidunt lacinia odio mi ac elit. Pellentesque ligula mi, ullamcorper et velit eget, fringilla consequat ipsum. Donec vitae cursus risus. Ut risus odio, lacinia et ipsum ullamcorper, ultrices euismod purus. Nullam tincidunt sed diam eu tempus. Aliquam non felis at metus scelerisque pharetra. Sed vulputate justo nec erat iaculis, nec gravida quam aliquam. Pellentesque euismod eros sollicitudin molestie vehicula. Phasellus non felis condimentum, accumsan felis eget, aliquam felis. Sed facilisis commodo turpis at semper.

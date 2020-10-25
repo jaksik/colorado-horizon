@@ -37,7 +37,7 @@ export default ({ data }) => {
           <div className="d-md-none mb-4">
             <HorzShareBar />
           </div>
-        <Img fluid={info.frontmatter.image.childImageSharp.fluid} />
+        <Img fluid={info.frontmatter.image.childImageSharp.fluid} style={{ marginBottom: 30}}/>
         <div dangerouslySetInnerHTML={{ __html: info.html }} />
       </div>
       </InfoLayout>

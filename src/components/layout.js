@@ -13,6 +13,19 @@ const Layout = ({ children }) => {
           title
         }
       }
+      allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "blog-post"}}} limit:5) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            id
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
     }
   `)
 
@@ -26,7 +39,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main style={{maxWidth:1200, margin:`0 auto`}}>{children}</main>
-        <Footer siteTitle={data.site.siteMetadata?.title || `Title`}/>
+        <Footer siteTitle={data.site.siteMetadata?.title || `Title`} blogPosts={data.allMarkdownRemark.edges}/>
       </div>
     </>
   )

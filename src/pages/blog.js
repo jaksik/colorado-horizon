@@ -8,6 +8,7 @@ import BlogList from "../components/BlogList"
 const BlogPage = ({ data }) => (
   <Layout>
     <SEO title="Blog" />
+    <h1 style={{fontSize:`3rem`, textAlign:`center`}}>The Colorado Horizon Blog</h1>
     <InfoLayout>
       <BlogList />
     </InfoLayout>
