@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
           // padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main style={{maxWidth:1200, margin:`0 auto`}}>{children}</main>
+        <main style={{maxWidth:1200, margin:`0 auto`, padding: 40}}>{children}</main>
         <Footer siteTitle={data.site.siteMetadata?.title || `Title`} blogPosts={data.allMarkdownRemark.edges}/>
       </div>
     </>

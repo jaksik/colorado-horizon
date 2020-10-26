@@ -1,0 +1,11 @@
+@media (min-width: 576px) {
+    .floating-image {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .floating-image {
+        max-width: 30%;
+    }
+}

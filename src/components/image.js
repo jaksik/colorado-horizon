@@ -25,7 +25,7 @@ const Image = () => {
     >
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        style={{ width: `100%`}}
+        style={{ width: `100%`, minHeight:`100vh`}}
       />
     </div>
   )

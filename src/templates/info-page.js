@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "./blog.css"
+import "./info-page.css"
 
 export default ({ data }) => {
   const info = data.markdownRemark
@@ -14,7 +15,7 @@ export default ({ data }) => {
       <SEO title={info.frontmatter.title} keywords={info.frontmatter.tags} />
 
       <div className="blog-content-container">
-        <h1 className="blog-post-title">{info.frontmatter.title}</h1>
+        <h1 className="blog-post-title text-center">{info.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: info.html }} />
       </div>
 

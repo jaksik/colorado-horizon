@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 11 Best Breakfast Restaurants in Fort Collins
 date: 2020-09-21
 description: This is the 1st blog post and it's all about a complete guide to blogging
-image: ../estes-park/breck.jpg
+image: ./breakfast.jpg
 tags:
   - blogging
   - guide

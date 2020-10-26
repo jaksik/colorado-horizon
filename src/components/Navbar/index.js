@@ -46,6 +46,7 @@ const Example = (props) => {
                 <SocialConnect />
 
                 </NavItem>
+               
               </Col>
             </Row>
           </Nav>

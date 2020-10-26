@@ -3,3 +3,10 @@ h2, h3 {
     font-size: 2rem;
 }
 
+.gatsby-resp-image-wrapper {
+    max-width: inherit!important;
+}
+
+.post-meta-item {
+    margin: 0 15px
+}

@@ -19,7 +19,7 @@ export default ({ data }) => {
      
 
       <div className="blog-content-container">
-        <h1 className="blog-post-title">{info.frontmatter.title}</h1>
+        <h1 className="blog-post-title text-center mt-4">{info.frontmatter.title}</h1>
         <div className="d-flex justify-content-center align-items-center mb-4">
             <div className="post-meta-item">
               <em>written By:</em><br />
