@@ -3,6 +3,12 @@ h2, h3 {
     font-size: 2rem;
 }
 
+p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+    font-family: sans-serif;
+}
+
 .gatsby-resp-image-wrapper {
     max-width: inherit!important;
 }
