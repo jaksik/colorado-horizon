@@ -1,41 +1,45 @@
 ---
 templateKey: blog-post
 title: 9 Best Mountain Towns in Colorado
-date: 2020-09-21
-description: Enjoy visiting mountain towns? The best mountain towns in Colorado are home to some of the most beautiful places not just in the United States, but the entire world.
+date: 2020-10-28
+description: Enjoy visiting Colorado mountain towns? The best mountain towns in Colorado offer world class skiing, healthy living, and welcoming hospitality that compares to none. Did your favorite Colorado mountain town make the list?
 image: ./leadville-colorado.jpg
 tags:
   - fort collins
   - things to do
   - colorado
 ---
-The best mountain towns in Colorado are some of the most picturesque and cozy little towns in the United States. Sitting at the heart of the Rocky Mountains, these mountain towns are surrounded by dense forests, snowy peaks, and sit at an average elevation of 9,000 ft. 
- 
-So what actually makes a mountain town the best? The views? The adventurous activities? Or simply just the laid back vibes? 
+The best mountain towns in Colorado are some of the most picturesque and cozy little towns in the United States. Surrounded by snowy peaks and dense forests, it’s obvious why these are such ideal places to be.
 
-Well, it's all of those things and more packed into these tiny communities that make them so great and make us day dream about them as we're sitting in the office.
+So what actually makes a mountain town the best? The views? The outdoor activities? The welcoming and laid back vibes?
+
+Well, it’s a bit of everything together that gives these tiny communities the charm that we day dream about as we go about our daily routines.
+
  
 ## What are the best mountain towns in Colorado?
-The best mountain towns in colorado are historic mining towns, world class ski resorts, and some of the highest towns in the entire United States. They are spread out across the mountainess western half of the state, almost touching the New Mexico border in the south and a stones throw away from the Wyoming border in the North.
+World class ski resorts and historic mining towns scattered across the magnificent Rocky Mountains in the western half of the state are the best mountain towns in Colorado. 
 
-In my years of chasing the deepest snow, summiting the highest peaks, and simply exploring the state I've had the opportunity to visit the vast majority of mountain towns in Colorado and I've made this list to share what I've found with others who appreciate what these charming towns have to offer.
+Some are known for their outdoor activities, others for their history, while some boast unique natural features such as hot springs.
+
+In my years of chasing the deepest powder, the highest peaks, and the best cups of coffee I’ve had the opportunity to visit the vast majority of mountain towns in Colorado and I’ve put together this list to help others discover what makes Colorado so great.
+
  
 **These are the best mountain towns in Colorado:**
 ### 1. Telluride
 ![Telluride Colorado](./telluride.jpg)
-A world away from the populous front range, Telluride sits in the middle of the rugged San Juan mountain range at the far southwestern corner of the state. Being a long 6.5 hour drive from Denver has likely played a role in this town being able to hold on to its unique charm over the years as the rest of the state has grown in popularity.
+A world away from the populous front range, Telluride sits in the middle of the rugged San Juan mountain range at the far southwestern corner of the state. Being a long 6.5 hour drive from Denver  is likely how this town has been able to hold on to its unique charm over the years as many other towns have drastically changed.
  
 ### 2. Crested Butte
 ![Crested Butte, Colorado](./crested-butte.jpg)
-Also relatively far from the Front Range, Crested Butte is a gem of Colorado that has a welcoming hospitality. Having world class skiing, a cute downtown, and being surrounded by vast beautiful wilderness are what make this town so charming and puts it high on our list.
+A town off the beaten path, Crested Butte once a sleepy mining town grew into one of the most popular ski resorts in the world during the 60’s as skiing grew in popularity. With steep mountains, rolling hills, and expansive valleys, Crested Butte is a mecca for adventurous sports and is well known for its extensive network of single track mountain biking trails. 
  
 ### 3. Steamboat Springs
 ![Aspen, Colorado](./steamboat-springs-colorado.jpg)
-Ski resorts and cute towns are easy to come by in Colorado, but to also boast numerous natural hot springs throughout the town is something unique to Steamboat Springs. After a long day of skiing on the mountain, there really is no better way to relax your soar muscles than to soak in one of the 10 hot springs that can be found around the town. Strawberry Springs and Old Town Springs are the most popular and are open all year round.
+Ski resorts and cute towns are easy to come by in Colorado, but to also boast numerous natural hot springs throughout the town is something unique to Steamboat Springs. After a long day of skiing on the mountain, there’s no better way to relax sore muscles than a long soak in hot natural mineral water. Strawberry Springs and Old Town Springs are the local favorites and are open to the public year round.
  
 ### 4. Grand Lake
 ![Aspen, Colorado](./grand-lake-colorado.jpg)
-An extemely popular destination for those making the infamous Trail Ridge Road drive, Grand Lake sits on the edge of Rocky Mountain National Park and is the perfect place to relax after a long day of exploring. Most commonly travellers will spend a few nights here after leaving Estes Park or vis versa.
+The best place to relax and grab a drink after making the famous Trail Ridge Road drive through Rocky Mountain National Park, Grand Lake is a tiny community of just over 400 year round residents that offers small town hospitality like no other. Being such a small town nestled into the high alpine valleys gives this town a secluded and remote atmosphere that can be difficult to find elsewhere in the state.
  
 ### 5. Breckenridge 
 ![Breckenridge, Colorado](./breckenridge.jpg)
@@ -43,21 +47,20 @@ Boasting nearly 3,000 acres of skiable terrain and being just a 1.5 hour drive f
  
 ### 6. Aspen 
 ![Aspen, Colorado](./aspen.jpg)
-The glam, the arts, and the world class skiing are what make Aspen one the most well known mountain towns in the world. If it wasn't for the extremely high cost of living and slight vibe of exclusivity, Aspen would be higher on this list. With that said, Aspen truly is a melting pot of art, culture, and scenic beauty that compares to none and gives it that charm which makes it one of the best mountain towns in Colorado.
+The arts, glam, and world class skiing are perhaps what make Aspen the most well known mountain town in the world. Reasonable living expenses and a down to Earth attitude would move this incredible town much higher up on this list. Being home to numerous world renowned music and film festivals make Aspen a true melting pot of foreign art and culture right in the middle of rugged ski country. 
  
 ### 7. Ouray
 ![Aspen, Colorado](./ouray-colorado.jpg)
-Perhaps the most quiet and least visited town on the list, the historic mining town of Ouray is tucked away in the narrow canyons of the San Juan mountains and offers a feeling of remoteness that can be difficult to find else where. Known as the "Switzerland of America", Ouray is surround by soaring mountain peaks, narrow winding highways, and relaxing hot springs.
+The most quiet and least visited town on this list, Ourary is an incredibly unique historic mining town tucked away into the narrow canyons of the San Juan mountain range. Self proclaimed as “the Switzerland of America”, there’s no reason to argue this after you witness the soaring peaks that rise above the town. For what Ouray lacks in skiing, it makes up for it with its long list of adventurous activities that can are not as common around the rest of the state such as 4x4 jeep tours, white water rafting, and world renowned ice climbing.
  
 ### 8. Estes Park
 ![Aspen, Colorado](./estes-park-colorado.jpg)
-Known for being "the gateway to Rocky Mountain National Park", Estes Park sits just outside one of the entrances to the national park and is often the base camp for people looking to explore. Also, just under 2 hours from Denver makes this a very popular day trip for those living on the front range. If you spend enough time here, you're likely to witness their famous elk herd which hangs around town and possibly even a bear or two that has wondered out of the mountains.
+Much more than just “the gateway to Rocky Mountain National Park”, Estes Park can hold its own with its breathtaking panoramic views, abundant wildlife, and variety of small town activities. The summer farmer’s market is a popular attraction as it offers the best opportunity to taste local foods and purchase hand made souvenirs. Just a few days in the town will almost guarantee you a few elk sightings and possibly even a black bear or two.
  
 ### 9. Leadville 
 ![Leadville, Colorado](./leadville-colorado.jpg)
-At an elevation of 10,151 ft, Leadville is the highest incorporated town in the United States. Since its inception, Leadville's economy has been driven by mining which has allowed it to fly under the radar as its more popular neighbors, Vail and Breckenridge, have seen exponential growth over the decades. This has allowed Leadville to stay relatively sleepy and hold on to its small town charm.
+Sitting at an elevation of 10,151 ft, your breath literally gets taken away as you gaze at the highest mountains in Colorado from the highest incorporated town in the United States, Leadville. The local economy here has been driven by mining since its inception and is to thank for this small town being able to fly under the radar as its more popular neighbors, Breckenridge and Vail, have exploded in growth over the years. 
  
 ### Conclusion
-Full of small town charm and natural beauty are what make the best mountain towns in Colorado some of the most special places in the United States. These places are also fueled by tourism which makes them welcoming and hospitable at their core. Regardless if you visit these towns or choose to discover others, Colorado mountain towns truly are like other place on Earth.
- 
+Hospitality, natural beauty, and healthy living are what make the best mountain towns in Colorado some of the most special places in the United States. With hundreds of communities scattered across Colorado’s Rocky Mountains, there are plenty more incredible places to be discovered that didn’t make it on this list. Regardless of the season, get out there and decide for yourself what are the best mountain towns in Colorado.
 
