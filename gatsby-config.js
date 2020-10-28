@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Colorado Horizon`,
-    description: `A simple blog default starter template that's optimized for seo and ready to rank on Google.`,
+    description: `Traveling to Colorado? We have the resources you need to make the most of your trip and discover everything that makes Colorado the state that it is.`,
     author: `@jaksik`,
     url: `https://blog-starter-default.web.app`,
     primaryColor: `#dbdbdb`,
