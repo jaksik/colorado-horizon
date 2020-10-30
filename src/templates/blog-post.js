@@ -16,18 +16,18 @@ export default ({ data }) => {
       <SEO title={info.frontmatter.title} keywords={info.frontmatter.tags} />
 
       <InfoLayout>
-     
 
-      <div className="blog-content-container">
-        <h1 className="blog-post-title text-center mt-4">{info.frontmatter.title}</h1>
-        <div className="d-flex justify-content-center align-items-center mb-4">
+
+        <div className="blog-content-container">
+          <h1 className="blog-post-title text-center mt-4">{info.frontmatter.title}</h1>
+          <div className="d-flex justify-content-center align-items-center mb-4">
             <div className="post-meta-item">
               <em>written By:</em><br />
               <a href="https://facebook.com/connorjaksik" target="_blank" rel="noopener noreferrer">Connor Jaksik</a>
             </div>
             <div className="post-meta-item">
               <em>published on:</em><br />
-              <b>October 9, 2020</b>
+              <b>{info.frontmatter.date}</b>
             </div>
             <div className="post-meta-item d-none d-md-block">/</div>
             <div className="post-meta-item d-none d-md-block">
@@ -37,9 +37,9 @@ export default ({ data }) => {
           <div className="d-md-none mb-4">
             <HorzShareBar />
           </div>
-        <Img fluid={info.frontmatter.image.childImageSharp.fluid} style={{ marginBottom: 30}}/>
-        <div dangerouslySetInnerHTML={{ __html: info.html }} />
-      </div>
+          <Img fluid={info.frontmatter.image.childImageSharp.fluid} style={{ marginBottom: 30 }} />
+          <div dangerouslySetInnerHTML={{ __html: info.html }} />
+        </div>
       </InfoLayout>
 
 
@@ -55,7 +55,7 @@ export const query = graphql`
         title  
         description
         tags
-        date
+        date(formatString: "MM/DD/YYYY")
         image {
           childImageSharp {
             fluid(quality: 100) {
