@@ -2,12 +2,12 @@
 templateKey: blog-post
 title: 9 Best Mountain Towns in Colorado
 date: 2020-10-28
-description: Enjoy visiting Colorado mountain towns? The best mountain towns in Colorado offer world class skiing, healthy living, and welcoming hospitality that compares to none. Did your favorite Colorado mountain town make the list?
+description: Enjoy visiting Colorado mountain towns? The best mountain towns in Colorado offer world class skiing, healthy living, and welcoming hospitality that compare to none. Did your favorite Colorado mountain town make the list?
 image: ./leadville-colorado.jpg
 tags:
-  - fort collins
-  - things to do
   - colorado
+  - mountain towns
+  - travel
 ---
 The best mountain towns in Colorado are some of the most picturesque and cozy little towns in the United States. Surrounded by snowy peaks and dense forests, it’s obvious why these are such ideal places to be.
 

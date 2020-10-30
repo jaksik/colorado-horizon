@@ -2,12 +2,12 @@
 templateKey: blog-post
 title: The 7 Best Places to Live in Colorado in 2021
 date: 2020-10-29
-description: Enjoy visiting mountain towns? The best mountain towns in Colorado are home to some of the most beautiful places not just in the United States, but the entire world.
+description: Moving to Colorado? The best places to live in Colorado are home to the healthiest lifestyles and the hottest economies in the Country.
 image: ./fort-collins.jpg
 tags:
-  - fort collins
-  - things to do
   - colorado
+  - towns
+  - places to live
 ---
 More than just hiking trails and farmer’s markets, the best places to live in Colorado are aslo home to some of the hottest economies and most innovative companies in the country. 
 

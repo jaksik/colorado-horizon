@@ -16,3 +16,24 @@ p {
 .post-meta-item {
     margin: 0 15px
 }
+
+.blog-floating-image {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.image-right {
+    float: right;
+}
+
+/* @media (min-width: 576px) {
+    .blog-floating-image {
+        max-width: 50%;
+    }
+} */
+
+@media (min-width: 992px) {
+    .blog-floating-image {
+        max-width: 50%;
+    }
+}
